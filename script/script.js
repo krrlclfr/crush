@@ -13,7 +13,7 @@ function no(){
     }
 
     if(clicks === 9){
-        document.getElementById('crush-message').innerHTML = "Ah bahala ka basta ako mahal pa din kita!";
+        document.getElementById('crush-message').innerHTML = "Ah bahala ka basta ako, mahal pa din kita!";
     }
 
     if(clicks === 10){
