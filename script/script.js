@@ -1,8 +1,5 @@
 var clicks = 0;
-
-function Init(){
-    
-}
+var yesMessage = document.getElementById("yes-message");
 function no(){
 
     clicks = clicks += 1
@@ -39,7 +36,14 @@ function no(){
 }
 
 function yes(){
-    var yesMessage = document.getElementById("yes-message"); 
+
+     
     yesMessage.classList.add('show-message');
-      
+    
 }
+
+function close_btn(){
+
+    yesMessage.classList.remove('show-message');
+}
+
