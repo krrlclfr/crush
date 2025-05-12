@@ -4,23 +4,23 @@ function no(){
 
     clicks = clicks += 1
 
-    if(clicks === 4) {
+    if(clicks === 1) {
         document.getElementById('crush-message').innerHTML = "I crush back mo na din kasi ako! &#128532;";
 
     }
-    if(clicks === 5){
+    if(clicks === 2){
         document.getElementById('crush-message').innerHTML = "";
     }
 
-    if(clicks === 9){
+    if(clicks === 3){
         document.getElementById('crush-message').innerHTML = "Ah bahala ka basta ako, mahal pa din kita!";
     }
 
-    if(clicks === 10){
+    if(clicks === 4){
         document.getElementById('crush-message').innerHTML = "";
     }
 
-    if(clicks === 14){
+    if(clicks === 5){
         document.getElementById('crush-message').innerHTML = "Malay mo tayo talaga &#128525;";
     }
 
@@ -36,8 +36,6 @@ function no(){
 }
 
 function yes(){
-
-     
     yesMessage.classList.add('show-message');
     
 }
